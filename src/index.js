@@ -16,5 +16,5 @@ getUsers().then(result => {
     </tr>`
   });
 
-  global.document.getElementById('users').innerHTML = usersBody; // he can't find element with id users
+  global.document.getElementById('users').innerHTML = usersBody;
 });
